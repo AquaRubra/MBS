@@ -1,0 +1,26 @@
+{
+    "name": "MBS Book System",
+    "short_name": "MBS",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "description": "A simply Web app.",
+    "icons": [
+        {
+            "src": "images/play-icon.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+    },
+        {
+            "src": "favicon.ico",
+            "sizes": "256x256"
+    },
+
+        {
+            "src":"images/index-logo.jpg",
+            "sizes":"1080x356",
+            "type":"image/jpg"
+    }
+    ]
+}
+  
