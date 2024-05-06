@@ -21,12 +21,15 @@
         
     </body>
 
-    <p>Number</p>
-    <input type="text" id="i_stuNum">
-    <br>
+    <tr>
+        <td>Number<input type="text" id="i_stuNum"></td>
+        <td>Building</td>
+        <table><td><input type="radio" id="buildingLL" name="i_building" value="LL">Ling.L. Rd.<input type="radio" id="buildingFY" name="i_building" value="FY">Fen.Y. Rd.</td></table>
+    </tr>
+
 
     <table>
-    <ol>    
+        
     <tr>
         <td>room0: <input type="text" id="i_room_0"></td>
         <td>date0: <input type="text" id="i_date_0"></td>
@@ -47,13 +50,12 @@
         <td>date3: <input type="text" id="i_date_3"></td>
         <td>time3: <input type="text" id="i_time_3"></td>
     </tr>
-    </ol>
     </table>
     <button id="submit">Submit</button>
     <br>
     <button id="runButton">RUN</button>
 
-    <script src="scripts/main.js" defer></script>
+    <script src="/scripts/main.js" defer></script>
     <script>
         if (navigator.serviceWorker != null) {
           navigator.serviceWorker.register('/scripts/sw.js')
